@@ -6198,14 +6198,15 @@ function morpion() {
         }
 
         function turnforp2b1(){
-            if (therealplayer2 = therealplayer1){
-                
+            if (therealplayer2 = therealplayer2) {
+            
+            
                 if (div1.innerHTML === undefined || div1.innerHTML === "") {
-                    div1.addEventListener("click", function rond(){
-                    
-                        div1.innerHTML = "\u25cf";
-                        turn2-=  1;
-                        therealplayer2-=1;
+                    div1.addEventListener("click", function croix(){
+                        
+                        div1.innerHTML = "\u2716";
+                        turn1-=  1;
+                        therealplayer1-=1;
     
                         // Si Joueur2 Gagne
                         if (div1.innerHTML === "\u25cf" && div2.innerHTML === "\u25cf" && div3.innerHTML === "\u25cf" ){
@@ -6421,12 +6422,13 @@ function morpion() {
     
                     })
                 }
+    
                 if (div2.innerHTML === undefined || div2.innerHTML === "") {
-                    div2.addEventListener("click", function rond(){
+                    div2.addEventListener("click", function croix(){
                     
-                        div2.innerHTML = "\u25cf";
-                        turn2-=  1;
-                        therealplayer2-=1;
+                        div2.innerHTML = "\u2716";
+                        turn1-=  1;
+                        therealplayer1-=1;
     
                         // Si Joueur2 Gagne
                         if (div1.innerHTML === "\u25cf" && div2.innerHTML === "\u25cf" && div3.innerHTML === "\u25cf" ){
@@ -6643,11 +6645,11 @@ function morpion() {
                     })
                 }
                 if (div3.innerHTML === undefined || div3.innerHTML === "") {
-                    div3.addEventListener("click", function rond(){
+                    div3.addEventListener("click", function croix(){
                     
-                        div3.innerHTML = "\u25cf";
-                        turn2-=  1;
-                        therealplayer2-=1;
+                        div3.innerHTML = "\u2716";
+                        turn1-=  1;
+                        therealplayer1-=1;
     
                         // Si Joueur2 Gagne
                         if (div1.innerHTML === "\u25cf" && div2.innerHTML === "\u25cf" && div3.innerHTML === "\u25cf" ){
@@ -6864,11 +6866,11 @@ function morpion() {
                     })
                 }
                 if (div4.innerHTML === undefined || div4.innerHTML === "") {
-                    div4.addEventListener("click", function rond(){
+                    div4.addEventListener("click", function croix(){
                     
-                        div4.innerHTML = "\u25cf";
-                        turn2-=  1;
-                        therealplayer2-=1;
+                        div4.innerHTML = "\u2716";
+                        turn1-=  1;
+                        therealplayer1-=1;
     
                         // Si Joueur2 Gagne
                         if (div1.innerHTML === "\u25cf" && div2.innerHTML === "\u25cf" && div3.innerHTML === "\u25cf" ){
@@ -7081,15 +7083,14 @@ function morpion() {
                         else {
                             return turnforp2();
                         }
-    
                     })
                 }
                 if (div5.innerHTML === undefined || div5.innerHTML === "") {
-                    div5.addEventListener("click", function rond(){
+                    div5.addEventListener("click", function croix(){
                     
-                        div5.innerHTML = "\u25cf";
-                        turn2-=  1;
-                        therealplayer2-=1;
+                        div5.innerHTML = "\u2716";
+                        turn1-=  1;
+                        therealplayer1-=1;
     
                         // Si Joueur2 Gagne
                         if (div1.innerHTML === "\u25cf" && div2.innerHTML === "\u25cf" && div3.innerHTML === "\u25cf" ){
@@ -7306,11 +7307,11 @@ function morpion() {
                     })
                 }
                 if (div6.innerHTML === undefined || div6.innerHTML === "") {
-                div6.addEventListener("click", function rond(){
+                    div6.addEventListener("click", function croix(){
                     
-                        div6.innerHTML = "\u25cf";
-                        turn2-=  1;
-                        therealplayer2-=1;
+                        div6.innerHTML = "\u2716";
+                        turn1-=  1;
+                        therealplayer1-=1;
     
                         // Si Joueur2 Gagne
                         if (div1.innerHTML === "\u25cf" && div2.innerHTML === "\u25cf" && div3.innerHTML === "\u25cf" ){
@@ -7523,15 +7524,14 @@ function morpion() {
                         else {
                             return turnforp2();
                         }
-    
                     })
                 }
                 if (div7.innerHTML === undefined || div7.innerHTML === "") {
-                div7.addEventListener("click", function rond(){
+                    div7.addEventListener("click", function croix(){
                     
-                        div7.innerHTML = "\u25cf";
-                        turn2-=  1;
-                        therealplayer2-=1;
+                        div7.innerHTML = "\u2716";
+                        turn1-=  1;
+                        therealplayer1-=1;
     
                         // Si Joueur2 Gagne
                         if (div1.innerHTML === "\u25cf" && div2.innerHTML === "\u25cf" && div3.innerHTML === "\u25cf" ){
@@ -7748,11 +7748,11 @@ function morpion() {
                     })
                 }
                 if (div8.innerHTML === undefined || div8.innerHTML === "") {
-                    div8.addEventListener("click", function rond(){
+                    div8.addEventListener("click", function croix(){
                     
-                        div8.innerHTML = "\u25cf";
-                        turn2-=  1;
-                        therealplayer2-=1;
+                        div8.innerHTML = "\u2716";
+                        turn1-=  1;
+                        therealplayer1-=1;
     
                         // Si Joueur2 Gagne
                         if (div1.innerHTML === "\u25cf" && div2.innerHTML === "\u25cf" && div3.innerHTML === "\u25cf" ){
@@ -7969,11 +7969,11 @@ function morpion() {
                     })
                 }
                 if (div9.innerHTML === undefined || div9.innerHTML === "") {
-                    div9.addEventListener("click", function rond(){
+                div9.addEventListener("click", function croix(){
                     
-                        div9.innerHTML = "\u25cf";
-                        turn2-=  1;
-                        therealplayer2-=1;
+                        div9.innerHTML = "\u2716";
+                        turn1-=  1;
+                        therealplayer1-=1;
     
                         // Si Joueur2 Gagne
                         if (div1.innerHTML === "\u25cf" && div2.innerHTML === "\u25cf" && div3.innerHTML === "\u25cf" ){
@@ -8188,7 +8188,6 @@ function morpion() {
                         }
     
                     })
-                    
                 }
             }
             }
